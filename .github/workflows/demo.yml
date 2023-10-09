@@ -49,6 +49,6 @@ jobs:
       - name: See artifacts
         run: ls -la
       - name: Output script filename
-        run: echo "${{ needs.build.outputs.script-file }}""
+        run: echo "${{ needs.build.outputs.script-file }}"
       - name: Deploy
         run: echo "Deploying..."
